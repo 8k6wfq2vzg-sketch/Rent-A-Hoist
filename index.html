@@ -1,1 +1,95 @@
 index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rent A Hoist – Calgary</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #111;
+      color: #fff;
+    }
+    h1, h2 {
+      color: #f7931e;
+    }
+    .card {
+      background: #1c1c1c;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #4da3ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    button {
+      background: #f7931e;
+      color: #000;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      width: 100%;
+      margin-top: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border-radius: 4px;
+      border: none;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Rent A Hoist</h1>
+  <p>Mobile vehicle hoist rentals — serving Calgary & area</p>
+
+  <div class="card">
+    <h2>Pricing</h2>
+    <ul>
+      <li>$250 / day</li>
+      <li>$200 for each additional day</li>
+      <li>$150 for 2 hours</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Book Now</h2>
+    <p>
+      📞 <a href="tel:12047474562">(204) 747-4562</a>
+    </p>
+
+    <label>Date</label>
+    <input type="date">
+
+    <label>Time</label>
+    <input type="time">
+
+    <label>
+      <input type="checkbox"> I agree to the rental terms and safety requirements
+    </label>
+
+    <button>Request Booking</button>
+  </div>
+
+  <div class="card">
+    <h2>Liability & Safety Disclaimer</h2>
+    <p>
+      Equipment is rented at the customer’s risk. Operator assumes all responsibility
+      for safe use, transportation, and compliance with applicable laws.
+    </p>
+  </div>
+
+</body>
+</html>
